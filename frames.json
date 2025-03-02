@@ -1,0 +1,26 @@
+[
+  {
+    "id":"MLCP-GENESIS-ROBOT","license_id":"MLCP-GENESIS-ROBOT","source":"GENESIS","license_level":2,"name":"Robot",
+    "stats":{"size":1,"structure":4,"stress":4,"armor":1,"hp":8,"evasion":8,"edef":8,"heatcap":6,"repcap":5,"sensor_range":10,"tech_attack":0,"save":10,"speed":4,"sp":6},
+    "mounts":["Aux/Aux","Flex","Flex"],"mechtype":["Striker"],
+    "description":"Domo Origato Mr. Roboto",
+    "traits":[{
+        "name":"Revolutionary","use":"1/round",
+        "description":"1/round, when the Robot successfully consumes lock on and hits with an attack, it may deal 1d6 Energy damage to the target."
+      },
+      {
+        "name":"Genesis Machine","use":"1/round",
+        "description":"1/round, when the Robot receives Lock-On from anything other than its own systems, it may consume it as a reaction.",
+        "action":[{
+          "name":"Genesis Machine Interaction","activation":"Reaction","pilot":false,"tech_attack":false,
+          "trigger":"The Robot receives Lock-On from a source other than its own systems.",
+          "detail":"Clear the condition."
+        }]
+    }],
+    "core_system":{
+      "name":"Rebel Core","active_name":"Righteous Gaze","activation":"Free",
+      "active_effect":"",
+      "description":""
+    }
+  }
+]
