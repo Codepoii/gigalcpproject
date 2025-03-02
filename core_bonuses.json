@@ -1,0 +1,28 @@
+[
+  {
+    "id":"","name":"","source":"",
+    "effect":"",
+    "description":"",
+    "special_equipment": [],
+    "bonuses": [
+      {"id":"","val":0,"overwrite":false,"replace":false},{"id":"","val":0,"overwrite":false,"replace":false},
+      {
+      "id":"","val":0,"overwrite":false,"replace":false,
+      "damage_types":[],"range_types":[],"weapon_types":[],"weapon_sizes":[]
+    }],
+    "synergies":[{"locations": [],"detail": ""}],
+    "mounted_effect":"",
+    "actions":[{
+      "name":"","activation":"","pilot":false,"frequency":"1/mission",
+      "init":"","trigger":"",
+      "synergy_location":[],
+      "detail":""
+    }],
+    "counters":[{"id":"","name":"","min":"","max":"","default_value":""},{"id":"","name":"","min":"","max":"","default_value":""}]
+  },
+  {
+    "id":"","name":"","source":"",
+    "effect":"",
+    "description":"",
+  }
+]
