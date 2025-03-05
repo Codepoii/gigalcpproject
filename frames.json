@@ -1,26 +1,26 @@
 [
   {
     "id":"MLCP-GENESIS-ROBOT","license_id":"MLCP-GENESIS-ROBOT","source":"GENESIS","license_level":2,"name":"Robot",
-    "stats":{"size":1,"structure":4,"stress":4,"armor":1,"hp":8,"evasion":8,"edef":8,"heatcap":6,"repcap":5,"sensor_range":10,"tech_attack":0,"save":10,"speed":4,"sp":6},
+    "stats":{"size":1,"structure":4,"stress":4,"armor":2,"hp":6,"evasion":8,"edef":8,"heatcap":4,"repcap":6,"sensor_range":10,"tech_attack":0,"save":10,"speed":4,"sp":6},
     "mounts":["Aux/Aux","Flex","Flex"],"mechtype":["Striker"],
-    "description":"Domo Origato Mr. Roboto",
+    "description":"<div>GENESIS' flagship model combat exoskeleton, the Robot has been at the forefront of diasporan politics since the fall of SecComm. Where there has been two sides with conflicting interests, there have been Robots. Where there have been Robots, there have been casualties in the thousands.<br><br>Robots have become synonymous with rebellion, many despot states taking full advantage of their temporary authority to crack down on Robot sales. GENESIS has taken advantage of it's Robot's reputation to advance advertising efforts deeper into Union space, marking it as a tool of Union agents and the Utopian Pillars.<br><br>While Union hasn't associated itself with GENESIS, there is a rumored papertrail between the two. There has undoubtedly been a non-zero number of resources shipped from Union space to GENESIS and GENESIS-aligned factories across the diaspora directly linked to Robot production.</div>",
     "traits":[{
-        "name":"Revolutionary","use":"1/round",
-        "description":"1/round, when the Robot successfully consumes lock on and hits with an attack, it may deal 1d6 Energy damage to the target."
+        "name":"Revolutionary Eyes","use":"",
+        "description":"1/round, when the Robot successfully consumes lock on and hits with an attack, it may deal 1d6 Bonus Energy damage to the target."
       },
       {
-        "name":"Genesis Machine","use":"1/round",
-        "description":"1/round, when the Robot receives Lock-On from anything other than its own systems, it may consume it as a reaction.",
+        "name":"GENESIS Machine","use":"1/round",
+        "description":"1/round, when Lock-On is applied to a hostile character, it may consume it to perform a skirmish against the target as a reaction.",
         "action":[{
-          "name":"Genesis Machine Interaction","activation":"Reaction","pilot":false,"tech_attack":false,
-          "trigger":"The Robot receives Lock-On from a source other than its own systems.",
-          "detail":"Clear the condition."
+          "name":"GENESIS Machine Interaction","activation":"Reaction","pilot":false,"tech_attack":false,
+          "trigger":"Lock-On is applied to a hostile character.",
+          "detail":"Consume the lock-on and perform a skirmish against the target."
         }]
     }],
     "core_system":{
-      "name":"Rebel Core","active_name":"Righteous Gaze","activation":"Free",
-      "active_effect":"",
-      "description":""
+      "name":"Rebel Core","active_name":"Riot Gaze","activation":"Quick","use":"Round",
+      "active_effect":"<div>Until the start of your next turn, at the end of each round, each hostile character within line of sight and Range 10 receives 1d6 AP Energy damage and must pass a Systems Save or not be able to draw line of sight beyond adjacent spaces.</div>",
+      "description":"<div>The Robot's engine is tied to an internal laser diode that generates potent beams that are directed from \"eyes\" positioned high on the Robot's body, capable of 3 axis of rotation and accurate tracking of targets through dangerous pulsed bursts of energy.</div>"
     }
   }
 ]
