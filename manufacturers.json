@@ -1,0 +1,25 @@
+[
+	{
+		"id":"GENESIS","name":"GENESIS","light":"#DDDA00","dark":"#772A00","quote":"<div><em>For what it's worth, we didn't think this would work either.</em></div>",
+    "description":"<div>A fringe diasporan manufacturer known for their Robot line of mech. Often at odds with militaristic juntas across the diaspora, GENESIS often directly produces and ships machines to desperate warfronts.",
+		"logo_url":""
+	},
+	{
+		"id":"SCU","name":"Synthesis Corporate Union","light":"#AAAAAA","dark":"#666666","quote":"<div><em>A slimey endeavor done diligently is one done fair.</em></div>",
+		"description":"<div>A small scale operation in the middle of the Long Rim, SCU is theorized to be owned and ran by an NHP. What it lacks in scale, it makes up for it in technological innovation. Union has sent investigative teams, though no definitive information has come into play.",
+		"logo_url":""
+	},
+	{
+		"id":"LMNOP","name":"Long Mountain Nominal Operations Protectorate","light":"#AE0026","dark":"#641126","quote":"<div><em>Where one rides, we dive.</em></div>",
+		"description":"<div>An impressive show of force each week defines this diasporan company. Where there is conflict in the diaspora, there is the big four. Where they fall, LMNOP is sure to show.</div>",
+		"logo_url":""
+	},
+	{
+		"id":"RJ","name":"Rocketry Juniors","light":"#FF0000","dark":"#AA0000","quote":"<div><em>
+	},
+	{
+		
+	},
+	{
+		
+	},
