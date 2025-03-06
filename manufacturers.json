@@ -15,11 +15,12 @@
 		"logo_url":""
 	},
 	{
-		"id":"RJ","name":"Rocketry Juniors","light":"#FF0000","dark":"#AA0000","quote":"<div><em>
+		"id":"RJ","name":"Rocketry Juniors","light":"#FF0000","dark":"#AA0000","quote":"<div><em>Rocket Power!</em></div>",
+		"description":"<div>A rocket-obsessed group of wondering cosmopolitan scientists and traders taking refuge in an abandoned and recently recontacted SecComm carrier.</div>"
+		"logo_url":""
 	},
 	{
-		
-	},
-	{
-		
-	},
+		"id":"FTL","name":"Farmsworth Technological Leaps","light":"#AACC96","dark":"#83AA58","quote":"<div><em>In spite, if not because of.</em></div>",
+		"description":"<div>A technology firm known for its almost alien mech designs. FTL pilots are generally looked at with concern, though FTL itself works hard to stay within the First Contact Accords.</div>",
+		"logo_url":""
+	}
